@@ -1,0 +1,24 @@
+
+Numero: Pedido 01,
+ Tamanho do Pedido: media,
+ Quantidade de Arroz: Meia porção,
+Quantidade de feijão: Meia Porção,
+ Proteina: Frango
+ 
+Numero: Pedido 02,
+ Tamanho do Pedido: grande,
+ Quantidade de Arroz: Porção completa,
+Quantidade de feijão: Meia Porção,
+ Proteina: Carne de Porco
+
+Numero: Pedido 03,
+ Tamanho do Pedido: media,
+ Quantidade de Arroz: Meia porção,
+Quantidade de feijão: Porção Completa,
+ Proteina: Bife
+
+Numero: Pedido 04,
+ Tamanho do Pedido: media,
+ Quantidade de Arroz: Meia porção,
+Quantidade de feijão: Porção Completa,
+ Proteina: Bife

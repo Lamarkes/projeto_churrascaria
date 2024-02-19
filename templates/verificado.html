@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrado</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div style="background-color: crimson">
+        <h1> Usuario logado </h1>
+        <h2>Seja bem-vindo, {{ login }}</h2>
+    </div>
+
+    <h1>Realize seu pedido já!</h1>
+
+
+    <form action="/enviar_pedido" method="post">
+            <fieldset>
+      <legend> <h3>Qual o tamanho da marmita de sua preferencia ?: </h3></legend>
+    <p>
+      <input type="radio" name="tamanho" id="tamanho_1" value="pequena" />
+      <label for="tamanho_1">pequena</label>
+    </p>
+    <p>
+      <input type="radio" name="tamanho" id="tamanho_2" value="media" />
+      <label for="tamanho_2">media</label>
+    </p>
+    <p>
+      <input type="radio" name="tamanho" id="tamanho_3" value="grande" />
+      <label for="tamanho_3">grande</label>
+    </p>
+  </fieldset>
+        <br>
+            <label for="numero">Numero do Pedido:</label>
+            <input type="text" id="numero" name="numero" required><br>
+
+            <label for="quantidade">Quantidade de Arroz:</label>
+            <input type="text" id="quantidade" name="quantidade" required><br>
+
+            <label for="proteina">Proteina:</label>
+            <input type="text" id="proteina" name="proteina" required><br>
+
+            <label for="feijao">Quantidade de feijão:</label>
+            <input type="text" id="feijao" name="feijao" required><br>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+
+</body>
+</html>

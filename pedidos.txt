@@ -1,0 +1,1 @@
+Nome Pedido 01, Tamanho do Pedido: None, Quantidade de Arroz: Meia porçãoQuantidade de feijão: Meia Porção, Proteina: Frango

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <meta charset="UTF-8">
+    <title>Churrascaria do Lamark</title>
+</head>
+<body>
+    <div style="background-color: crimson">
+
+        <h1>Churrascaria Catolica da Paraíba</h1>
+
+    </div>
+    <div align="center">
+        <form action="/cadastrar" method="post">
+
+            <label>LOGIN</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label>SENHA</label>
+            <input type="password" name="senha">
+            <br>
+            <br>
+            <button>Enviar</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
